@@ -1,1 +1,15 @@
-console.log('Hola Mundo');
+//console.log('Hola Mundo'); 
+
+let c;
+let f = 90;
+
+
+c = (f-32)*(5/9);
+
+
+
+
+
+
+
+console.log(c);
