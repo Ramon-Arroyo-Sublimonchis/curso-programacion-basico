@@ -1,7 +1,4 @@
-
-
-
-let nota = 50;
+/*let nota = 50;
 let notaLetra= "";
 
 if (nota>=90){
@@ -16,4 +13,43 @@ if (nota>=90){
     notaLetra="F";
 }
 
-console.log(nota + " Es igual a = " + notaLetra);
+console.log(nota + " Es igual a = " + notaLetra);*/
+
+
+let dia = "apple";
+
+switch(dia){
+
+    case "apple":
+        console.log("Es domingo");
+        break;
+    
+    case 1:
+        console.log("Es Lunes");
+        break;
+
+    case 3:
+        console.log("Es Martes");
+        break;
+    
+    case 4:
+        console.log("Es miercoles");
+        break;
+
+    case 5:
+        console.log("Es Jueves");
+
+    case 6:
+        console.log("Es Viernes");
+        break;
+
+    case 7: 
+        console.log("Es sabado");
+        break;
+
+    default:
+        console.log("No es un dia valido");
+    
+
+
+}
