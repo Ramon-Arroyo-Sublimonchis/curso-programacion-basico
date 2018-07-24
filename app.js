@@ -16,11 +16,11 @@ if (nota>=90){
 console.log(nota + " Es igual a = " + notaLetra);*/
 
 
-let dia = "apple";
+/*let dia = 1;
 
 switch(dia){
 
-    case "apple":
+    case 1:
         console.log("Es domingo");
         break;
     
@@ -52,4 +52,15 @@ switch(dia){
     
 
 
+}*/
+
+
+let gasolina = 55;
+
+while(gasolina > 50){
+    gasolina--;
+    console.log("Solo te queda " + gasolina + " %");
+
 }
+
+console.log("Ya no tienes gasolina");
