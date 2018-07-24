@@ -1,20 +1,19 @@
 
 
 
-let nota = 40;
+let nota = 50;
+let notaLetra= "";
 
-if (nota>=60){
-
-    console.log("El Alumno aprueba la clases");
-
-} else { 
-    
-    if (nota<50){
-        console.log("Por favor Estudie más"); 
-} else {
-
-             
-        console.log("El Alumno reprobo la clase");          
+if (nota>=90){
+    notaLetra = "A";
+} else if(nota>=80){
+    notaLetra="B";
+} else if(nota>=70){
+    notaLetra="C";
+} else if (nota>=60){
+    notaLetra="D"
+} else{
+    notaLetra="F";
 }
 
-}
+console.log(nota + " Es igual a = " + notaLetra);
