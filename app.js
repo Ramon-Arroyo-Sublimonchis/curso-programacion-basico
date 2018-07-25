@@ -1,5 +1,5 @@
 
-function imprimirTabla(base, limite){
+/*function imprimirTabla(base, limite){
    
 for (let i = 1; i<=limite; i++){
 
@@ -10,7 +10,7 @@ for (let i = 1; i<=limite; i++){
 }
 }
 
-imprimirTabla(3,10);
+imprimirTabla(3,10);*/
 
 
 /*let base = 10;
@@ -38,3 +38,31 @@ function nombre(nombre){
 
 let total = sumar() + " " + nombre();
 console.log(total);*/
+
+
+function calificacion(nota){
+    notaLetra = "";
+
+
+if (nota>=90){
+    notaLetra = "A";
+} else if(nota>=80){
+    notaLetra="B";
+} else if(nota>=70){
+    notaLetra="C";
+} else if (nota>=60){
+    notaLetra="D"
+} else{
+    notaLetra="F";
+}
+
+
+console.log(nota + " Es igual a = " + notaLetra);
+    }
+
+    calificacion(100);
+    calificacion(80);
+    calificacion(59);
+
+
+
