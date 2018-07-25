@@ -40,7 +40,7 @@ let total = sumar() + " " + nombre();
 console.log(total);*/
 
 
-function calificacion(nota){
+/*function calificacion(nota){
     notaLetra = "";
 
 
@@ -62,7 +62,14 @@ console.log(nota + " Es igual a = " + notaLetra);
 
     calificacion(100);
     calificacion(80);
-    calificacion(59);
+    calificacion(59);*/
 
+let equipos = ["Chivas", "America", "tecos"];
+let salarios = [1000, 2000, 3000];
+
+for (let i = 0; i<equipos.length; i++ ){
+    console.log(equipos[i] + " = "+ salarios[i]);
+
+}
 
 
