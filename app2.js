@@ -1,9 +1,17 @@
 
-let persona = {
-
-    nombre: "Ramon",
-    edad: 32,
-    estatura: 1.76
+function describirPersona(p){
+    //console.log(`${p.nombre} tiene una edad de ${p.edad} y mide ${p.estatura}`);
+    console.log(p.nombre + " tiene una edad de " + p.edad + " Y mide " + p.estatura);
 }
 
-console.log(persona.nombre + " tienes " + persona.edad);
+
+
+
+let persona = {
+
+    nombre: "Monchis",
+    edad: 77,
+    estatura: 1.90
+}
+ 
+describirPersona(persona);
