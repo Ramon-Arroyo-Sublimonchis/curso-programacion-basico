@@ -28,7 +28,7 @@ class Carro {
         if(consumo > this.gasolina){
             console.log("No puede realizar este viaje: Gasolina " + this.gasolina);
 
-        }else{
+        } else {
 
         this.gasolina = this.gasolina - consumo;
         return "Te queda " + this.gasolina;
@@ -36,7 +36,7 @@ class Carro {
         } 
     } else {
             console.log("El carro esta apagado");
-        }
+         }
     
     }
      
